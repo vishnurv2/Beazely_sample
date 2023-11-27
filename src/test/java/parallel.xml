@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="10" name="Desktop" parallel="tests">
+
+    <test thread-count="100" name="Chrome 10">
+        <classes>
+            <class name="BeazleyChrome10"/>
+        </classes>
+    </test><!-- Test -->
+
+    <test thread-count="100" name="Chrome 11">
+        <classes>
+            <class name="beazleyChrome11"/>
+        </classes>
+    </test><!-- Test -->
+
+    <test thread-count="100" name="Edge 10">
+        <classes>
+            <class name="beazleyEdge10"/>
+        </classes>
+    </test><!-- Test -->
+
+    <test thread-count="100" name="Edge 11">
+        <classes>
+            <class name="beazleyEdge11"/>
+        </classes>
+    </test><!-- Test -->
+
+</suite>
